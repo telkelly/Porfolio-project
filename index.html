@@ -42,10 +42,15 @@
         </div>
       </div>
       <div class="project-section">
-        <h2 class="proj-title">My projects</h2>
+        <h1 class="proj-title">My projects</h1>
         <div class="projects">
           <div class="project">
-            <img src="./img/game.png" alt="game" style="width: 300px; height: 200px;" />
+            <a href=""
+              ><img
+                src="./img/game.png"
+                alt="game"
+                style="width: 320px; height: 200px"
+            /></a>
             <h4 class="project-name">Game</h4>
             <p class="project-descrp">
               The popular classic game Rock Paper Scissors but modified by the
@@ -53,24 +58,133 @@
             </p>
           </div>
           <div class="project">
-            <img
-              src="/img/delivery-site.png"
-              alt="delivery-site"
-              style="width: 300px; height: 200px;"
-            />
+            <a href=""
+              ><img
+                src="/img/delivery-site.png"
+                alt="delivery-site"
+                style="width: 320px; height: 200px"
+            /></a>
             <h4 class="project-name">Delivery Website</h4>
             <p class="project-descrp">Responsive website with dark theme</p>
           </div>
           <div class="project">
-            <img
-              src="/img/tip-app.png"
-              alt="tip-application"
-              style="width: 300px; height: 200px;"
-            />
+            <a href=""
+              ><img
+                src="/img/tip-app.png"
+                alt="tip-application"
+                style="width: 320px; height: 200px"
+            /></a>
             <h4 class="project-name">Tip Calculator</h4>
             <p class="project-descrp">
               The tip calculator for saving your time
             </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact">
+        <h1 class="section-header">Contact</h1>
+
+        <div class="contact-wrapper">
+
+          <form id="contact-form" class="form-horizontal" role="form">
+            <div class="input">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Write your full name"
+                name="name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Write your email"
+                name="email"
+                value=""
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                class="form-control"
+                rows="10"
+                id="message"
+                placeholder="Put here your message to me"
+                name="message"
+                required
+              ></textarea>
+            </div>
+
+            <button
+              class="btn btn-primary send-button"
+              id="submit"
+              type="submit"
+              value="SEND"
+            >
+              <div class="alt-send-button">
+                <i class="fa fa-paper-plane"></i
+                ><span class="send-text">SEND</span>
+              </div>
+            </button>
+          </form>
+
+          <div class="direct-contact-container">
+            <ul class="contact-list">
+              <li class="list-item">
+                <img
+                  src="https://img.icons8.com/dotty/30/null/map-marker.png"
+                />
+                <span class="contact-text place">Holon, Israel</span>
+              </li>
+
+              <li class="list-item">
+                <img
+                  src="https://img.icons8.com/material-two-tone/30/null/phone--v1.png"
+                />
+                <span class="contact-text phone"
+                  ><a href="tel:1-212-555-5555" title="Give me a call"
+                    >053-5375577</a
+                  ></span
+                >
+              </li>
+
+              <li class="list-item">
+                <img
+                  src="https://img.icons8.com/dotty/30/null/map-marker.png"
+                />
+                <span class="contact-text gmail">
+                  <a href="mailto:#" title="Send me an email"
+                    >telltokel@gmail.com</a
+                  ></span
+                >
+              </li>
+            </ul>
+
+            <hr />
+            <div class="social-media-list">
+              <a href="#" class="contact-icon">
+                <img
+                  src="https://img.icons8.com/material-outlined/30/null/github.png"
+                />
+              </a>
+              <a href="#" class="contact-icon">
+                <img
+                  src="https://img.icons8.com/ios-glyphs/30/null/linkedin.png"
+              /></a>
+              <a href="#" class="contact-icon">
+                <img src="https://img.icons8.com/ios/30/null/instagram-new--v1.png"/>
+              </a>
+            </div>
           </div>
         </div>
       </div>
