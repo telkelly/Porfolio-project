@@ -1,5 +1,5 @@
 /* font import */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
 
 /* reset css */
 
@@ -41,7 +41,7 @@ img {
 
 body {
   font-size: 18px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 /* Navbar */
@@ -50,7 +50,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 5px 0;
-  background-color: #7aa874;
+  background-color: #9DC08B;
   padding: 15px 100px;
 }
 
@@ -77,7 +77,7 @@ a {
   gap: 50px;
   justify-content: center;
   align-items: center;
-  margin: 80px 0;
+  margin: 100px 0;
 }
 
 .description {
@@ -195,7 +195,7 @@ a {
 
 .proj-title {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
   font-weight: 600;
 }
 
@@ -218,6 +218,10 @@ a {
 
 .project-name {
   font-weight: 600;
+  text-align: center;
+}
+
+.align-center{
   text-align: center;
 }
 
@@ -254,7 +258,7 @@ a {
 textarea {
   width: 100%;
   height: 35px;
-  background-color: #7aa8745d;
+  background-color: #7aa87439;
   border: none;
   border-radius: 3px;
   margin-bottom: 15px;
@@ -265,7 +269,10 @@ textarea {
   height: 34px;
   width: 400px;
   overflow: hidden;
+  border: none;
+  border-radius: 3px;
   transition: all 0.2s ease-in-out;
+  background-color: #f7db6ac4;
 }
 
 .alt-send-button {
@@ -349,6 +356,7 @@ hr {
     padding: 0;
     justify-content: space-around;
     align-items: center;
+    height: 35px;
   }
 
   .container {
@@ -362,7 +370,7 @@ hr {
   .projects {
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
   }
 
   .project,
